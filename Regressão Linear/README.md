@@ -1,42 +1,35 @@
 <html>
-  
+
+  <h1>Regressão Linear</h1>
+  <h2>Análise e Predição de Preços de Imóveis nos EUA</h2>
+
+
 <body>
 
-  <h1>Repositório de Estudos em Machine Learning</h1>
+  <h1>Objetivo do Código:</h1>
+  <p>O objetivo deste código é realizar uma análise exploratória dos dados contidos no conjunto 'USA_Housing.csv', que representa informações sobre imóveis nos Estados Unidos. Em seguida, o código constrói um modelo de regressão linear para prever os preços dos imóveis com base em diversas variáveis independentes.</p>
 
-  <p>Bem-vindo ao meu repositório de estudos em Machine Learning! Aqui, estou documentando minha jornada de aprendizado, explorando conceitos, algoritmos e práticas relacionadas a Machine Learning. Este repositório serve como meu compêndio acadêmico e também para compartilhamento de conhecimento.</p>
-  
-
-  <h2>Estrutura do Repositório:</h2>
-
+  <h1>Bibliotecas Utilizadas:</h1>
   <ul>
-    <li><strong>Notebooks:</strong> Contém notebooks Jupyter e implementações feitas na IDE Spyder.</li>
-    <li><strong>Datasets:</strong> Armazena conjuntos de dados utilizados nos estudos.</li>
-    <li><strong>Projetos:</strong> Projetos práticos relacionados a Machine Learning.</li>
+    <li>pandas (pd): Utilizada para manipulação e análise de dados.</li>
+    <li>numpy (np): Utilizada para suporte a operações matemáticas.</li>
+    <li>seaborn (sns): Biblioteca de visualização de dados baseada no Matplotlib.</li>
+    <li>matplotlib.pyplot (plt): Utilizada para a criação de gráficos.</li>
   </ul>
 
-  <h2>Objetivo:</h2>
+  <h1>Passos Realizados:</h1>
 
-  <p>Meu objetivo é aprofundar meu entendimento em diversas áreas de Machine Learning, desde o pré-processamento de dados até a implementação de modelos avançados. Ao longo do tempo, pretendo abordar tópicos como regressão, classificação, agrupamento, redes neurais, processamento de linguagem natural (NLP) e muito mais.</p>
+  <h2>1. Leitura do Arquivo e Exploração dos Dados:</h2>
+  <p>O código inicia lendo o arquivo 'USA_Housing.csv' usando o Pandas e exibe as primeiras linhas e as colunas do conjunto de dados para uma rápida exploração.</p>
 
-  <h2>Como Contribuir:</h2>
+  <h2>2. Análise de Linearidades entre os Dados:</h2>
+  <p>O código utiliza a função pairplot do Seaborn para criar um gráfico de dispersão entre pares de variáveis, o que possibilita visualizar as relações lineares entre elas.</p>
 
-  <p>Sinta-se à vontade para explorar os códigos, experimentar com os notebooks e sugerir melhorias. Se você também está estudando Machine Learning, este repositório pode ser uma fonte de referência e troca de ideias.</p>
+  <!-- Adicionar os demais passos seguindo a estrutura do HTML -->
 
-  <h2>Conteúdo Atual:</h2>
-
-  <ul>
-    <li><a href="link_para_o_codigo">Análise e Predição de Preços de Imóveis nos EUA</a></li>
-    <li><a href="link_para_o_codigo">Outro Tópico Importante</a></li>
-  </ul>
-
-  <h2>Recursos Úteis:</h2>
-
-  <p>Além dos códigos, estou compartilhando recursos valiosos que encontro durante minha jornada. Confira a seção de links úteis para artigos, tutoriais e cursos recomendados.</p>
-
-  <h2>Agradecimentos:</h2>
+  <h1>Conclusão:</h1>
+  <p>O código conclui com sucesso a análise exploratória dos dados, a construção de um modelo de regressão linear e a visualização dos coeficientes do modelo. Isso proporciona uma compreensão inicial das relações entre as variáveis e permite a previsão dos preços dos imóveis com base nos atributos fornecidos.</p>
 
 </body>
 
 </html>
-
