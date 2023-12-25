@@ -60,6 +60,10 @@ predict = lm.predict(x_test) #aprender os parametros das primeiras casas
 #%%
 plt.figure(figsize=(12, 6))
 plt.scatter(y_test, predict)    
+# o eixo x mostra os valores corretos das casas
+# e no eixo y, temos os valores que o modelo predizeu
 
+#%% Vamos agora plotar o grafico de distribuição do erros(resíduos)    
+sns.displot((y_test - predict))
     
 
