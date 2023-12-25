@@ -4,6 +4,14 @@ Created on Thu Dec 21 15:31:32 2023
 
 @author: Diego
 """
+
+'''
+Instruções para o usuário:
+Execute o código em ordem, célula por célula.
+
+*sugestão: shift + enter.
+'''
+
 #%% imports
 import pandas as pd
 import numpy as np
@@ -66,4 +74,24 @@ plt.scatter(y_test, predict)
 #%% Vamos agora plotar o grafico de distribuição do erros(resíduos)    
 sns.displot((y_test - predict))
     
+'''   Métricas de avaliação de Regressão
+
+Erro Absoluto Médio (Mean Absolute Error - MAE)
+Média do Quadrado do Erro (Mean Squared Error - MSE)
+Raiz do Erro Médio Quadrado (Root Mean Squared - Error - RMSE)
+
+'''
+#%%
+from regressao_linear_estudos import y_test, predict, np
+from sklearn import metrics
+
+#%%  Erro Absoluto Médio (Mean Absolute Error - MAE)
+print('MAE:', metrics.mean_absolute_error(y_test, predict))
+
+
+#%% Média do Quadrado do Erro (Mean Squared Error - MSE)
+print('MSE:', metrics.mean_squared_error(y_test, predict))
+
+#%% Raiz do Erro Médio Quadrado (Root Mean Squared - Error - RMSE)
+print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predict)))
 
