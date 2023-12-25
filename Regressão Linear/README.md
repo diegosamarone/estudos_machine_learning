@@ -34,10 +34,29 @@
   <h2>2. Análise de Linearidades entre os Dados:</h2>
   <p>O código utiliza a função pairplot do Seaborn para criar um gráfico de dispersão entre pares de variáveis, o que possibilita visualizar as relações lineares entre elas.</p>
 
+  <h2>3. Seleção de Variáveis Preditoras (X) e Resposta (y):</h2>
+  <p>As variáveis preditoras foram escolhidas para formar a matriz X de treino, enquanto a variável de teste(y) foi definida como os preços dos imóveis.</p>
+
+  <h2>4. Divisão dos Dados em Treino e Teste:</h2>
+  <p>Os dados foram divididos em conjuntos de treino e teste utilizando o método train_test_split do scikit-learn.</p>
+  
+  <h2>5. Construção do Modelo de Regressão Linear:</h2>
+  <p>Um modelo de regressão linear foi criado utilizando a classe LinearRegression do scikit-learn. O ajuste do modelo foi realizado com
+    os dados de treino.</p>
+
+  <h2>6. Avaliação do Modelo:</h2>
+  <p>Foram geradas previsões utilizando os dados de teste e, em seguida, avaliadas as métricas de desempenho do modelo.</p>
+
+  <p>Métricas de Avaliação:
+   <li>Erro Absoluto Médio (MAE): Média das diferenças absolutas entre as previsões e os valores reais.</li>
+   <li>Média do Quadrado do Erro (MSE): Média das diferenças ao quadrado entre as previsões e os valores reais.</li>
+   <li>Raiz do Erro Médio Quadrado (RMSE): Raiz quadrada do MSE, representando uma métrica de erro em escala semelhante à variável de
+     resposta.</li>
+  
   <!-- Adicionar os demais passos seguindo a estrutura do HTML -->
 
   <h1>Conclusão:</h1>
-  <p>O código conclui com sucesso a análise exploratória dos dados, a construção de um modelo de regressão linear e a visualização dos coeficientes do modelo. Isso proporciona uma compreensão inicial das relações entre as variáveis e permite a previsão dos preços dos imóveis com base nos atributos fornecidos.</p>
+  <p>O código forneceu uma análise exploratória dos dados, construção de um modelo de regressão linear e a visualização dos coeficientes do modelo. Foi possível prever os preços de imóveis nos EUA com métricas e visualizações oferecendo insights valiosos sobre o desempenho. Este projeto serve como um exemplo básico de construção e avaliação de modelos de machine learning para problemas de regressão.</p>
 
 </body>
 
