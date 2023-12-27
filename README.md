@@ -10,7 +10,8 @@
   <h2>Estrutura do Repositório:</h2>
 
   <ul>
-    <li><strong>Notebooks:</strong> Contém notebooks Jupyter e implementações feitas na IDE Spyder.</li>
+    <li><strong>Notebooks:</strong> Contém notebooks Jupyter e Google Colab.</li>
+    <li><strong>IDE's:</strong> Spyder Anaconda.</li>
     <li><strong>Datasets:</strong> Armazena conjuntos de dados utilizados nos estudos.</li>
     <li><strong>Projetos:</strong> Projetos práticos relacionados a Machine Learning.</li>
   </ul>
@@ -26,13 +27,13 @@
   <h2>Conteúdo Atual:</h2>
 
   <ul>
-    <li><a href="link_para_o_codigo">Análise e Predição de Preços de Imóveis nos EUA</a></li>
+    <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
     <li><a href="link_para_o_codigo">Outro Tópico Importante</a></li>
   </ul>
 
   <h2>Recursos Úteis:</h2>
 
-  <p>Além dos códigos, estou compartilhando recursos valiosos que encontro durante minha jornada. Confira a seção de links úteis para artigos, tutoriais e cursos recomendados.</p>
+  <p>Esta seção é dedicada a divulgação de links úteis para artigos, tutoriais e cursos recomendados.</p>
 
   <h2>Agradecimentos:</h2>
 
