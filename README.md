@@ -24,13 +24,18 @@
 
   <p>Sinta-se à vontade para explorar os códigos, experimentar com os notebooks e sugerir melhorias. Se você também está estudando Machine Learning, este repositório pode ser uma fonte de referência e troca de ideias.</p>
 
+
   <h2>Conteúdo Atual:</h2>
+<ul>
+  <li>Regressao Linear
+    <ul>
+      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
+    </ul>
+  </li>
+  <li>Outro Tópico Importante</li>
+</ul>
 
-  <ul>
-    <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
-    <li><a href="link_para_o_codigo">Outro Tópico Importante</a></li>
-  </ul>
-
+  
   <h2>Recursos Úteis:</h2>
 
   <p>Esta seção é dedicada a divulgação de links úteis para artigos, tutoriais e cursos recomendados.</p>
