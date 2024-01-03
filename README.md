@@ -30,6 +30,7 @@
   <li>Regressao Linear
     <ul>
       <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
+      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear/Projeto%20-%20Ecommerce%20Customers">Ecommerce Customers - Projeto</a></li>
     </ul>
   </li>
   <li>Outro Tópico Importante</li>
