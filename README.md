@@ -27,16 +27,28 @@
 
   <h2>Conteúdo Atual:</h2>
 <ul>
-  <li>Regressao Linear
+  
+  <li>Regressão Linear
     <ul>
       <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
       <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear/Projeto%20-%20Ecommerce%20Customers">Ecommerce Customers - Projeto</a></li>
     </ul>
   </li>
+  
+  <li>Regressão Logística
+    <ul>
+      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Log%C3%ADstica">Análise e Predição dos dados sobre o Titanic</a></li>
+    </ul>
+  </li>
+
+
   <li>Outro Tópico Importante</li>
-</ul>
+
+
 
   
+</ul>
+
   <h2>Recursos Úteis:</h2>
 
   <p>Esta seção é dedicada a divulgação de links úteis para artigos, tutoriais e cursos recomendados.</p>
