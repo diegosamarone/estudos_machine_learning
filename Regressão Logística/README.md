@@ -15,7 +15,7 @@
   
   <h3>Exemplos de Problemas de Classificação:</h3>
   <ul>
-    <li>Filtro de e-mails (spams ou não)</li>
+    <li>Filtro de e-mails </li>
     <li>Modelos preditores de clientes inadimplentes</li>
     <li>Diagnóstico de doenças</li>
   </ul>
@@ -29,10 +29,13 @@
     <li>Falso Positivo (FP): O modelo previu incorretamente a classe positiva. Também conhecido como Erro Tipo I.</li>
     <li>Falso Negativo (FN): O modelo previu incorretamente a classe negativa. Também conhecido como Erro Tipo II.</li>
   </ul>
-
+  <h2> </h2>
+<h3>Segue abaixo as informações sobre o estudo realizado para este modelo de machine learnig</h3>
   <h2>Análise e Predição dos dados sobre o Titanic</h2>
   
   <p>Nesta análise, exploramos o Conjunto de dados do Titanic da Kaggle, conhecido por ser um ponto de partida comum em Machine Learning. Utilizamos a regressão logística em Python para desenvolver um algoritmo de classificação, distinguindo entre passageiros sobreviventes e falecidos.</p>
+
+[Link para o Notebook Jupyter](https://github.com/diegosamarone/estudos_machine_learning/blob/main/Regress%C3%A3o%20Log%C3%ADstica/Regress%C3%A3o%20log%C3%ADstica%20com%20Python.ipynb)
   
   <h3>Importar bibliotecas</h3>
   <p>Iniciamos importando as bibliotecas necessárias para nossa análise, incluindo pandas, numpy, seaborn, matplotlib e ferramentas de machine learning.</p>
