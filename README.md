@@ -38,6 +38,7 @@
   <li>Regressão Logística
     <ul>
       <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Log%C3%ADstica">Análise e Predição dos dados sobre o Titanic</a></li>
+      <li><a href="link do repo">Projeto - ClickPredictor</a></li>
     </ul>
   </li>
 
