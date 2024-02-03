@@ -1,61 +1,32 @@
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+<img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" width="90" height="45">
+
 <html>
   
 <body>
-
-  <h1>Repositório de Estudos em Machine Learning</h1>
-
-  <p>Bem-vindo ao meu repositório de estudos em Machine Learning! Aqui, estou documentando minha jornada de aprendizado, explorando conceitos, algoritmos e práticas relacionadas a Machine Learning. Este repositório serve como meu compêndio acadêmico e também para compartilhamento de conhecimento.</p>
+<h1>Projeto K Nearest Neighbors (KNN) com Python</h1>
+<br>
+  <h2>Introdução</h2>
+  <p>O algoritmo K-Nearest Neighbors (KNN) é um método de aprendizado supervisionado não paramétrico que pode ser usado para classificação e regressão. Ele se baseia na ideia de que pontos de dados semelhantes estão próximos no espaço de características, com a proximidade geralmente medida pela distância euclidiana.</p>
+  <p>No KNN, um novo ponto de dados é classificado ou previsto com base nos ‘K’ pontos de dados mais próximos do conjunto de treinamento. Para classificação, o novo ponto é atribuído à classe mais comum entre seus ‘K’ vizinhos. Para regressão, o valor previsto é a média dos valores dos ‘K’ vizinhos.</p>
+  <p>A escolha do valor de ‘K’ é crucial para a precisão do modelo. Um ‘K’ muito pequeno pode tornar o modelo excessivamente sensível ao ruído, resultando em sobreajuste. Por outro lado, um ‘K’ muito grande pode tornar o modelo insensível às diferenças entre as classes, levando a um subajuste. Portanto, a seleção adequada de ‘K’ é essencial para o desempenho do KNN.</p>
+  <p>Para fins de estudos, utilizamos um conjunto de dados classificados de uma empresa, ocultando os parâmetros específicos. O objetivo foi aplicar o KNN para prever a classe de um novo ponto de dados com base nos parâmetros.</p>
+  <h4>Pré-processamento de Dados</h4>
+  <p>Após obter e carregar os dados, realizamos a normalização das variáveis. Isso é crucial para o KNN, já que a distância entre pontos determina os vizinhos mais próximos. A normalização garante que todas as variáveis contribuam igualmente, independentemente da escala original.</p>
+  <h4>Divisão dos Dados</h4>
+  <p>Os dados foram divididos em conjuntos de treino e teste, seguindo as melhores práticas de avaliação de modelos.</p>
+  <h4>Implementação do KNN</h4>
+  <p>Utilizamos a biblioteca scikit-learn para implementar o KNN. Iniciamos com k=1 e posteriormente escolhemos o valor de k ideal usando o método do cotovelo, que avalia diferentes valores de k em termos de taxa de erro.</p>
+  <h4>Avaliação do Modelo</h4>
+  <p>Avaliamos o modelo usando métricas como matriz de confusão, precisão, recall e F1-score. A escolha de k=23 resultou em um desempenho notável, com alta precisão e recall para ambas as classes.</p>
+  <h4>Conclusão</h4>
+  <p>Em resumo, o modelo KNN com k=23 apresentou um desempenho satisfatório na classificação das classes, com uma acurácia geral de 93%. O projeto destaca a importância da escolha adequada de k para o bom desempenho do KNN.</p>
   
-
-  <h2>Estrutura do Repositório:</h2>
-
-  <ul>
-    <li><strong>Notebooks:</strong> Contém notebooks Jupyter e Google Colab.</li>
-    <li><strong>IDE's:</strong> Spyder Anaconda.</li>
-    <li><strong>Datasets:</strong> Armazena conjuntos de dados utilizados nos estudos.</li>
-    <li><strong>Projetos:</strong> Projetos práticos relacionados a Machine Learning.</li>
-  </ul>
-
-  <h2>Objetivo:</h2>
-
-  <p>Meu objetivo é aprofundar meu entendimento em diversas áreas de Machine Learning, desde o pré-processamento de dados até a implementação de modelos avançados. Ao longo do tempo, pretendo abordar tópicos como regressão, classificação, agrupamento, redes neurais, processamento de linguagem natural (NLP) e muito mais.</p>
-
-  <h2>Como Contribuir:</h2>
-
-  <p>Sinta-se à vontade para explorar os códigos, experimentar com os notebooks e sugerir melhorias. Se você também está estudando Machine Learning, este repositório pode ser uma fonte de referência e troca de ideias.</p>
-
-
-  <h2>Conteúdo Atual:</h2>
-<ul>
-  
-  <li>Regressão Linear
-    <ul>
-      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear">Análise e Predição de Preços de Imóveis nos EUA</a></li>
-      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Linear/Projeto%20-%20Ecommerce%20Customers">Ecommerce Customers - Projeto</a></li>
-    </ul>
-  </li>
-  
-  <li>Regressão Logística
-    <ul>
-      <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Regress%C3%A3o%20Log%C3%ADstica">Análise e Predição dos dados sobre o Titanic</a></li>
-      <li><a href="link do repo">Projeto - ClickPredictor</a></li>
-    </ul>
-  </li>
-
-
-  <li>Outro Tópico Importante</li>
-
-
-
-  
-</ul>
-
-  <h2>Recursos Úteis:</h2>
-
-  <p>Esta seção é dedicada a divulgação de links úteis para artigos, tutoriais e cursos recomendados.</p>
-
-  <h2>Agradecimentos:</h2>
-
 </body>
 
 </html>
