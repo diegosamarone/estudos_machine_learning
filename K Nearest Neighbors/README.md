@@ -9,7 +9,7 @@
 <html>
   
 <body>
-<h1>Projeto K Nearest Neighbors (KNN) com Python</h1>
+<h1>K Nearest Neighbors (KNN) com Python</h1>
 <br>
   <h2>Introdução</h2>
   <p>O algoritmo K-Nearest Neighbors (KNN) é um método de aprendizado supervisionado não paramétrico que pode ser usado para classificação e regressão. Ele se baseia na ideia de que pontos de dados semelhantes estão próximos no espaço de características, com a proximidade geralmente medida pela distância euclidiana.</p>
