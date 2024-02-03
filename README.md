@@ -42,7 +42,10 @@
     </ul>
   </li>
 
-
+  <li>K Nearest Neighbors (KNN)</li>
+  <ul>
+    <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/K%20Nearest%20Neighbors">Introdução - Classificação de dados criptografados</a></li>
+  </ul>
   <li>Outro Tópico Importante</li>
 
 
