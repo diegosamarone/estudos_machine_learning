@@ -8,58 +8,37 @@
 
 <html>
 <body>
+<h1>Projeto de Regressão Logística</h1>
 
-  <h1>Regressão Logística</h1>
-  
-  <p>A regressão logística é um método de classificação usado para prever a probabilidade de ocorrência de um evento com base em variáveis independentes. A variável dependente é limitada entre 0 e 1, representando a probabilidade do evento ocorrer.</p>
-  
-  <h3>Exemplos de Problemas de Classificação:</h3>
-  <ul>
-    <li>Filtro de e-mails </li>
-    <li>Modelos preditores de clientes inadimplentes</li>
-    <li>Diagnóstico de doenças</li>
-  </ul>
-  
-  <p>A regressão logística é útil para prever categorias discretas, estimando a probabilidade de uma observação pertencer a uma classe específica. A função logística (sigmoid) mapeia qualquer número real para um valor entre 0 e 1.</p>
+<p>Neste projeto, trabalharemos com um conjunto de dados fictício de publicidade para prever se um usuário clicará em um anúncio com base em suas características.</p>
+<br>
 
-  <p>Após treinarmos um modelo de regressão logística, é comum testá-lo em um conjunto de dados de teste. A matriz de confusão é uma ferramenta essencial para avaliar o desempenho do modelo. Ela consiste uma tabela que compara as previsões do modelo com os valores reais. Ela é composta por quatro componentes principais:</p>
-    <ul>
-    <li>Verdadeiro Positivo (VP): O modelo previu corretamente a classe positiva.</li>
-    <li>Verdadeiro Negativo (VN): O modelo previu corretamente a classe negativa.</li>
-    <li>Falso Positivo (FP): O modelo previu incorretamente a classe positiva. Também conhecido como Erro Tipo I.</li>
-    <li>Falso Negativo (FN): O modelo previu incorretamente a classe negativa. Também conhecido como Erro Tipo II.</li>
-  </ul>
-  <h2> </h2>
-<h3>Segue abaixo as informações sobre o estudo realizado para este modelo de machine learnig</h3>
-  <h2>Análise e Predição dos dados sobre o Titanic</h2>
-  
-  <p>Nesta análise, exploramos o Conjunto de dados do Titanic da Kaggle, conhecido por ser um ponto de partida comum em Machine Learning. Utilizamos a regressão logística em Python para desenvolver um algoritmo de classificação, distinguindo entre passageiros sobreviventes e falecidos.</p>
+<h2>Relatório:</h2>
+<p>No Notebook deste projeto você vai poder acompanhar as seguintes etapas:</p>
 
-[Link para o Notebook Jupyter](https://github.com/diegosamarone/estudos_machine_learning/blob/main/Regress%C3%A3o%20Log%C3%ADstica/Regress%C3%A3o%20log%C3%ADstica%20com%20Python.ipynb)
-  
-  <h3>Importar bibliotecas</h3>
-  <p>Iniciamos importando as bibliotecas necessárias para nossa análise, incluindo pandas, numpy, seaborn, matplotlib e ferramentas de machine learning.</p>
+<h3>Conjunto de Dados</h3>
+<p>O conjunto de dados inclui informações como tempo gasto no site, idade do consumidor, renda média, uso diário da internet e se o usuário clicou ou não no anúncio.</p>
 
-  <h3>Análise de dados exploratórios</h3>
-  <p>Ao ler o arquivo titanic_train.csv em um DataFrame pandas, começamos a análise exploratória dos dados. Utilizamos seaborn para criar um mapa de calor, identificando áreas com dados ausentes, e observamos que aproximadamente 20% dos dados de idade estão faltando.</p>
+<h3>Importação de Bibliotecas</h3>
+<p>Foram importadas as bibliotecas necessárias, incluindo pandas, numpy, matplotlib e seaborn.</p>
 
-  <h3>Visualizações Gráficas</h3>
-  <p>Definimos gráficos para explorar a distribuição de sobreviventes por classe de passageiros, gênero, idade, acompanhantes no navio e preços de tickets. Esses gráficos fornecem insights sobre padrões e tendências nos dados.</p>
+<h3>Carregamento dos Dados</h3>
+<p>Os dados foram carregados a partir do arquivo 'advertising.csv' em um DataFrame chamado 'ad_data'.</p>
 
- 
+<h3>Visão Geral dos Dados</h3>
+<p>Foram exibidas informações sobre o DataFrame, incluindo tipos de dados e quantidade de entradas em cada coluna.</p>
 
-  <h3>Limpeza de Dados</h3>
-  <p>Para lidar com dados de idade faltantes, implementamos uma estratégia inteligente de imputação, considerando a idade média por classe de passageiros. Além disso, removemos a coluna 'Cabin' e uma linha com dados ausentes em 'Embarked'.</p>
+<h3>Resumo Estatístico</h3>
+<p>Foi gerado um resumo estatístico para as colunas numéricas do DataFrame.</p>
 
-  <h3>Conversão de Categóricos</h3>
-  <p>Para preparar os dados para o modelo, convertemos características categóricas em variáveis dummy usando pandas, garantindo que o algoritmo de Machine Learning possa processar esses dados corretamente.</p>
+<h3>Análise Exploratória de Dados</h3>
+<p>Foram criados gráficos usando a biblioteca Seaborn para explorar as relações entre variáveis, incluindo histograma de idade, jointplot de renda e idade, distribuições KDE de tempo gasto no site vs idade, e jointplot de tempo gasto no site vs uso diário da internet.</p>
 
-  <h3>Construção do Modelo de Regressão Logística</h3>
-  <p>Dividimos os dados em conjuntos de treinamento e teste, construindo um modelo de regressão logística para prever a sobrevivência dos passageiros.</p>
+<h3>Regressão Logística</h3>
+<p>Os dados foram divididos em conjuntos de treino e teste, e um modelo de Regressão Logística foi treinado usando as colunas selecionadas. A precisão do modelo foi calculada e uma matriz de confusão foi apresentada.</p>
 
-  <h3>Avaliação do Modelo</h3>
-  <p>Avaliamos o desempenho do modelo usando métricas como precisão, recall e pontuação F1 por meio do relatório de classificação. A matriz de confusão (148 Verdadeiros Negativos, 15 Falsos Positivos, 39 Falsos Negativos e 65 Verdadeiros Positivos) forneceu uma visão detalhada do desempenho do modelo.</p>
-
+<h3>Resultados e Conclusões</h3>
+<p>O modelo de Regressão Logística apresentou uma precisão de aproximadamente 90.61%. A matriz de confusão revelou valores para verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos. Com base nesses resultados, concluímos que o modelo tem um desempenho sólido na previsão de cliques em anúncios com base nas características fornecidas no conjunto de dados.</p>
 
 
 </body>
