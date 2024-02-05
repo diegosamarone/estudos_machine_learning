@@ -7,27 +7,25 @@
 <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" width="90" height="45">
 
 <html>
-  
-<body>
-<h1>K Nearest Neighbors (KNN) com Python</h1>
-<br>
-  <h2>Introdução</h2>
-  <p>O algoritmo K-Nearest Neighbors (KNN) é um método de aprendizado supervisionado não paramétrico que pode ser usado para classificação e regressão. Ele se baseia na ideia de que pontos de dados semelhantes estão próximos no espaço de características, com a proximidade geralmente medida pela distância euclidiana.</p>
-  <p>No KNN, um novo ponto de dados é classificado ou previsto com base nos ‘K’ pontos de dados mais próximos do conjunto de treinamento. Para classificação, o novo ponto é atribuído à classe mais comum entre seus ‘K’ vizinhos. Para regressão, o valor previsto é a média dos valores dos ‘K’ vizinhos.</p>
-  <p>A escolha do valor de ‘K’ é crucial para a precisão do modelo. Um ‘K’ muito pequeno pode tornar o modelo excessivamente sensível ao ruído, resultando em sobreajuste. Por outro lado, um ‘K’ muito grande pode tornar o modelo insensível às diferenças entre as classes, levando a um subajuste. Portanto, a seleção adequada de ‘K’ é essencial para o desempenho do KNN.</p>
-  <p>Para fins de estudos, utilizamos um conjunto de dados classificados de uma empresa, criptografando os parâmetros específicos. O objetivo foi aplicar o KNN para prever a classe de um novo ponto de dados com base nos parâmetros.</p>
-  <h4>Pré-processamento de Dados</h4>
-  <p>Após obter e carregar os dados, realizamos a normalização das variáveis. Isso é crucial para o KNN, já que a distância entre pontos determina os vizinhos mais próximos. A normalização garante que todas as variáveis contribuam igualmente, independentemente da escala original.</p>
-  <h4>Divisão dos Dados</h4>
-  <p>Os dados foram divididos em conjuntos de treino e teste, seguindo as melhores práticas de avaliação de modelos.</p>
-  <h4>Implementação do KNN</h4>
-  <p>Utilizamos a biblioteca scikit-learn para implementar o KNN. Iniciamos com k=1 e posteriormente escolhemos o valor de k ideal usando o método do cotovelo, que avalia diferentes valores de k em termos de taxa de erro.</p>
-  <h4>Avaliação do Modelo</h4>
-  <p>Avaliamos o modelo usando métricas como matriz de confusão, precisão, recall e F1-score. A escolha de k=23 resultou em um desempenho notável, com alta precisão e recall para ambas as classes.</p>
-  <h4>Conclusão</h4>
-  <p>Em resumo, o modelo KNN com k=23 apresentou um desempenho satisfatório na classificação das classes, com uma acurácia geral de 93%. O projeto destaca a importância da escolha adequada de k para o bom desempenho do KNN.</p>
+  <body>
+    <h1>Projeto K Nearest Neighbors (KNN) com Python</h1>
+    <p>Este projeto utiliza o algoritmo K-Nearest Neighbors (KNN) para classificação. Iniciamos importando as bibliotecas necessárias e carregando um conjunto de dados. A análise exploratória de dados inclui a criação de um pairplot para visualizar as relações entre variáveis.</p>
+    <p><b>Apenas siga as instruções deste notebook jupyter</b></p>
+    <a href="https://github.com/diegosamarone/estudos_machine_learning/blob/main/K%20Nearest%20Neighbors/projeto_knn/K_Nearest_Neighbors_Projeto.ipynb">Link para o notebook jupyter</a>
+    <br>
+    <br>
+    <h2>Etapas do Projeto:</h2>
+    <h2>1 - Padronização das Variáveis</h2>
+    <p>As variáveis foram padronizadas usando o StandardScaler do Scikit-learn. Isso garante que todas as variáveis contribuam igualmente para o modelo KNN, independentemente de suas escalas originais.</p>
+    <h2>2 - Divisão dos Dados</h2>
+    <p>Os dados foram divididos em conjuntos de treino e teste para avaliação do modelo.</p>
+    <h2>3 - Implementação do KNN</h2>
+    <p>O modelo KNN foi criado e ajustado aos dados de treinamento. Avaliações do modelo, como matriz de confusão e relatório de classificação, foram realizadas.</p>
+    <h2>4 - Escolha do Valor K</h2>
+    <p>Utilizamos o método do cotovelo para escolher um valor adequado de k. Um gráfico mostrando a taxa de erro em relação a diferentes valores de k foi gerado, auxiliando na escolha do melhor k.</p>
+    <h2>5 - Treinamento com Novo Valor de K</h2>
+    <p>Finalmente, treinamos o modelo novamente com o valor de k escolhido e reavaliamos o desempenho do modelo com a matriz de confusão e o relatório de classificação.</p>
   
 </body>
-
 </html>
 
