@@ -45,6 +45,7 @@
   <li>K Nearest Neighbors (KNN)</li>
   <ul>
     <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/K%20Nearest%20Neighbors">Introdução - Classificação de dados criptografados</a></li>
+    <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/K%20Nearest%20Neighbors/projeto_knn">Projeto prático com KNN</a></li>
   </ul>
   <li>Random Forest</li>
   <ul>
