@@ -46,6 +46,11 @@
   <ul>
     <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/K%20Nearest%20Neighbors">Introdução - Classificação de dados criptografados</a></li>
   </ul>
+  <li>Random Forest</li>
+  <ul>
+    <li><a href="https://github.com/diegosamarone/estudos_machine_learning/tree/main/Random%20Forest">Introdução - Predição de Problemas de Corcunda com Random Forest em Python</li>
+  </ul>
+      
   <li>Outro Tópico Importante</li>
 
 
