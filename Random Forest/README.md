@@ -39,6 +39,7 @@
 
 <h3>Exemplo prático com Python</h3>
 <p>Para abordar o modelo <b>Random Forest</b> com python, começaremos trabalhando com dados sobres pacientes com problema de corcunda e tentaremos predizer se apenas uma cirurgia corretora será ou não suficiente.</p>
+<li>Para acompanhar a parte prática deste estudo acesse o <a href="https://github.com/diegosamarone/estudos_machine_learning/blob/main/Random%20Forest/florestas_aleatorias.ipynb">Notebook Jupyter</a></li>
 
 <h4>Referências:</h4>
     <ul>
